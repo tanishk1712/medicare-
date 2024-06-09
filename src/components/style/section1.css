@@ -1,0 +1,225 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.section1{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+
+    overflow: hidden;
+}
+
+.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.menu-item a {
+    color: #007FF4;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.btn {
+    background: #007FF4;
+    color: white;
+    padding: 14px 20px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+border-radius: 25px;
+
+}
+
+
+.background-svg-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    z-index: -1;
+}
+.background-svg-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+    z-index: -1; /* Ensure the SVGs are behind the navbar and section */
+}
+
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+padding: 50px;
+    position: relative;
+    z-index: 10; /* Ensure content is above background SVGs */
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.paragraph-2 {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn-appointment {
+    background: #007FF4;
+    color: white;
+    padding: 14px 20px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+border-radius: 25px;
+}
+
+.btn-department {
+    background: #ffffff;
+    color: #007FF4;
+    padding: 14px 20px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+border-radius: 25px;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.paragraph-1{
+    font-family: Source Sans Pro;
+font-size: 24px;
+font-weight: 700;
+line-height: 30.17px;
+text-align: left;
+color:#003B79;
+
+
+
+}
+
+.heading{
+    font-family: Source Sans Pro;
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+text-align: left;
+color: #002348;
+}
+
+.paragraph-2{
+    font-family: Source Sans Pro;
+font-size: 20px;
+font-weight: 400;
+line-height: 39px;
+text-align: left;
+width: 546px;
+height: 122px;
+top: 444px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+color: #002348;
+
+}
+
+
+@media screen and (max-width: 768px) {
+   
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+.heading {
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.paragraph-1 {
+    text-wrap: nowrap;
+}
+
+.paragraph-2{
+   margin: 10px; 
+   padding: 10px;
+}
+.paragraph-2, .paragraph-1 {
+    text-align: center;
+}
+
+.svg-content{
+   display: none;
+}
+  }
+  

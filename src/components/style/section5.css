@@ -1,0 +1,22 @@
+.section5 {
+    padding: 50px 20px;
+    position: relative;
+  }
+  
+  .section5-heading {
+    font-family: Source Sans Pro;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: left;
+    color: #003B79;
+    margin-left: 100px;
+  }
+ 
+  .reaview-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }

@@ -1,0 +1,23 @@
+.box {
+    position: relative;
+    width: 432px;
+    height: 386px;
+  }
+  
+  .svg {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .servicename {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+  }
+  

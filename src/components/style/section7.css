@@ -1,0 +1,27 @@
+.social{
+    background: #ECF4FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    padding: 50px;
+}
+
+.social p{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 300;
+line-height: 34px;
+text-align: left;
+color: #667C94;
+
+}
+
+.navbar2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    
+}

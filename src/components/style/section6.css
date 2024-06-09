@@ -1,0 +1,91 @@
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  
+  }
+
+
+  .subscribe-box {
+    background: #007FF4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1198px;
+height: 478px;
+top: 4680px;
+left: 121px;
+gap: 0px;
+opacity: 0px;
+
+    
+  }
+  
+  .subscribe-heading {
+   color: #fff;
+  
+   top: 4724px;
+   left: 441px;
+   gap: 0px;
+   opacity: 0px;
+   font-family: Source Sans Pro;
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 78px;
+   text-align: center;
+      
+  }
+  
+  .subscribe-paragraph {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: center;
+color: #fff;    
+top: 4814px;
+left: 447px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  
+  .subscribe-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+margin: 70px;
+height: 120px;
+
+
+  }
+  
+  .subscribe-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+   
+  }
+  
+  .subscribe-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007FF4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #005bb5;
+  }
+  

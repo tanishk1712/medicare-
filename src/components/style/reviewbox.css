@@ -1,0 +1,48 @@
+.review-box {
+    width: 577px;
+height: 294px;
+    position: relative;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 25px #003B7913;
+    margin-bottom: 20px;
+   
+}
+
+.svg-1 {
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    right: -20px; /* Adjust as needed */
+    z-index: 11;
+}
+
+.review-text {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    color: #002348;
+margin: 20px;
+}
+
+.review-name {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.17px;
+    text-align: left;
+    color: #002348;
+    margin: 20px;
+}
+
+.patient-label {
+    font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.63px;
+text-align: left;
+color: #002348;
+margin: 20px;
+}
